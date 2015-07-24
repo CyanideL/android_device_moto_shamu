@@ -185,4 +185,7 @@ EXTENDED_FONT_FOOTPRINT := true
 # CMHW
 BOARD_HARDWARE_CLASS := device/moto/shamu/cmhw
 
+# LZMA
+WITH_LZMA_OTA := true
+
 -include vendor/motorola/shamu/BoardConfigVendor.mk
